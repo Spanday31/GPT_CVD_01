@@ -5,13 +5,14 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from constants import LDL_THERAPIES
+from .calculations import (
 from calculations import (
     calculate_smart_risk, calculate_ldl_effect, validate_drug_classes,
     calculate_ldl_reduction, generate_recommendations
 )
-from pdf_generator import create_pdf_report
-from utils import load_logo
+from .constants import LDL_THERAPIES
+from .pdf_generator import create_pdf_report
+from .utils import load_logo
 
 st.set_page_config(page_title="PRIME CVD Risk Calculator", layout="wide", page_icon="❤️")
 
