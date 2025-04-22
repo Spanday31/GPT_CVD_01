@@ -1,0 +1,2 @@
+INTERVENTIONS = [{"name": "Smoking cessation", "arr_5yr": 5, "arr_lifetime": 17, "mechanism": "Reduces endothelial dysfunction", "source": "Haberstick BMJ 2018"}]
+LDL_THERAPIES = {"Atorvastatin 20 mg": {"reduction": 40}}
